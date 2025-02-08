@@ -3,7 +3,7 @@
 // Function to handle button click events
 function selectOption(option) {
     // Check which option was clicked
-    if (option === 'yes') {
+    if (option === 'CLICK') {
         // Flash rainbow colors
         flashROSE(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
