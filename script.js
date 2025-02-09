@@ -6,7 +6,7 @@ function selectOption(option) {
     if (option === 'CLICK') {
         // Flash rainbow colors
         flashROSE(function() {
-            document.getElementById('Option').style.display = 'none'; // Hide the question
+            document.getElementById('question').style.display = 'none'; // Hide the question
             displayROSE(); // Display the cat-heart.gif
         });
     }
