@@ -12,6 +12,10 @@ function selectOption(option) {
     }
 }
 
+function audio(){
+    var audio = new Audio('I Wanna Be Yours [nyuo9-OjNNg].mp3');
+    audio.autoplay();
+
 // Function to display the cat.gif initially
 function displayROSE() {
     // Get the container where the image will be displayed
