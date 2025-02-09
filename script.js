@@ -14,7 +14,6 @@ function selectOption(option) {
 
 // Function to display the cat.gif initially
 function displayROSE() {
-     document.getElementById('image-container').innerHTML = '';
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
@@ -38,7 +37,8 @@ function displayROSE() {
     // Create a new Image element for the cat-heart
     var ROSEImage = new Image();
     // Set the source (file path) for the cat-heart image
-    ROSEImage.src = 'ROSE2.gif'; // Assuming the cat-heart image is named "cat-heart.gif"
+    ROSEImage.src = 'ROSE2.gif'; 
+    ROSEImage.src = 'ROSE1.gif';// Assuming the cat-heart image is named "cat-heart.gif"
     // Set alternative text for the image (for accessibility)
     ROSEImage.alt = 'ROSE 2';
     // When the cat-heart image is fully loaded, add it to the image container
